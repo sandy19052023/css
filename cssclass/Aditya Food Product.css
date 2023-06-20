@@ -1,0 +1,284 @@
+.top{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    }
+.top1{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 15px;
+     }
+*{
+top: 0;
+margin: 0;
+}
+li:hover{
+color: #FF770F;
+}
+li{
+margin-top: 30px;
+font-size: medium;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#li1{
+margin-left: 400px;
+}
+#li2{
+margin-left: 40px;
+}
+#li3{
+margin-left: 40px;
+}
+#li4{
+
+margin-left: 40px;
+} 
+#li5{
+width: 120px;
+height: 20px;
+margin-left: 40px;
+color: white;
+background-color:#FF770F;
+padding: 15px;
+text-align: center;
+border-radius: 30px;
+margin-top: 15px;
+} 
+#li5:hover{
+background-color:#ce5d06;
+}
+.image{
+width: 100%;
+height: 800px;
+/* background-image: url(https://thumbs.dreamstime.com/b/set-indian-spices-wooden-table-top-view-big-horizontal-image-83830359.jpg); */
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.text{
+color: white;
+position: absolute;
+top: 400px;
+margin-left: 250px;
+/* position: relative;
+  animation-name: text;
+  animation-duration: 10s;
+  animation-timing-function:ease-out;
+  animation-delay: 0s; 
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;   */
+}
+#h1{
+
+font-size: 90px;
+
+}
+
+    /* @keyframes text {
+        from{top: 300px;} to {top: 400px;}
+} */
+/* .text:hover{
+    color: white;
+position: absolute;
+margin-top: 400px;
+margin-left: 250px;
+transition: 0.5s;
+transition-delay: 0s;
+} */
+#h3{
+margin-top: 10px;
+margin-left: 200px;
+font-size: 30px;
+color: #FF770F;
+}
+#h31{
+margin-top: 20px;
+margin-left: 150px;
+font-size: 30px;
+}
+.welcome{
+display: flex;
+
+}
+.welcometext{
+margin-top: 100px;
+margin-left: 100px;
+width: 300px;
+height: auto;
+}
+.welcomeimg1{
+position: relative;
+top: 90px;
+margin-left: 20px;
+}
+.welcomeimg2{
+position: relative;
+top: 40px;
+margin-left: 60px;
+}
+#about{
+width: 200px;
+height: 20px;
+color: white;
+background-color: #FF770F;
+text-align: center;
+padding: 10px;
+border-radius: 50px;
+margin-top: 30px; 
+/* position: relative;
+animation-name: idm;
+animation-duration: 10s;
+animation-timing-function:ease-out;
+animation-delay: 0s; 
+animation-iteration-count: 1;
+animation-direction: alternate;    */
+}
+#about:hover{
+width: 200px;
+height: 20px;
+color: white;
+background-color:#ce5d06;
+text-align: center;
+padding: 10px;
+border-radius: 50px;
+margin-top: 40px;
+transition: 0.5s;
+transition-delay: 0s;
+
+}
+/* @keyframes idm {
+0%   {background-color:red; left:0px; top:30px;}
+100%  {background-color:yellow; left:0px; top:40px;}
+
+}    */
+/* ::selection{
+color:black;
+background-color: #FF770F;
+} */
+.OurFlavorings{
+    text-align: center;
+    margin-top: 100px;
+}
+table,td{
+    
+    border: #FF770F solid 1px;
+    border-collapse: collapse;
+}
+.table{
+    /* margin-top: 50px; */
+    position:relative ;
+    top: -1150px;
+}
+td{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-color: bisque;
+}
+.all{
+    position: absolute;
+    top: 1800px;
+}
+.allprocess{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 1100px;
+}
+.processimg{
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+}
+.process{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: -300px;
+    margin-left: 700px;
+   
+}
+#ourrange{
+    width: 200px;
+height: 20px;
+color: white;
+background-color: #FF770F;
+text-align: center;
+padding: 10px;
+border-radius: 50px;
+margin-top: 200px; 
+}
+#ourrange:hover{
+    width: 200px;
+    height: 20px;
+    color: white;
+    background-color:#ce5d06;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 210px;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+#MoreAboutPrivateLabel{
+    width: 200px;
+height: 20px;
+color: white;
+background-color: #FF770F;
+text-align: center;
+padding: 10px;
+border-radius: 50px;
+margin-top: 30px; 
+}
+#MoreAboutPrivateLabel:hover{
+    width: 200px;
+    height: 20px;
+    color: white;
+    background-color:#ce5d06;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 40px;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+.OurManufacturingUnit{
+    position: relative;
+    top: -400px;
+}
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    margin-top: -300px;
+    
+}
+.footer{
+    color: white;
+    display: flex;
+    
+}
+.f1{
+    /* position: relative;
+    top: 100px; */
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.f2{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.f3{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+ul{
+    list-style-type: none;
+}
+/* body{
+    background-image: url(https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */

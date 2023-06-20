@@ -1,0 +1,36 @@
+.one{
+    height: 200;
+    width: 200;
+    border-style: ;
+    border-color: black;
+    border-bottom-style: double;
+    border-bottom-color: blue;
+    border-top-style: dotted;
+    border-top-color: red;
+    border-width: 2px;
+    border-radius: 20%;
+    border-left-style: solid;
+    border-left-color: aquamarine;
+    background-color: chartreuse;
+    border-top-right-radius: 50%;
+}
+#button{
+    height: 30px;
+    width: 60px;
+    background-color:red;
+    color:white;
+    border-style: hidden;
+    border-color:rgba(255,0,0,0.5);
+    border-radius: 15%;
+    border-width: 2px;
+}
+.two{
+    /* height: 150px;
+    width: 150px;
+    border-color: black;
+    border-style: double; */
+    height: 150px;
+    width: 150;
+    border: 1px double rebeccapurple;
+    border-radius: 20%;
+}

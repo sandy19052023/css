@@ -1,0 +1,26 @@
+/* i{
+    color: chartreuse;
+}
+p{
+    background-color: antiquewhite;
+}
+#sample{
+    background-color: wheat;
+}
+.sample{
+    background-color: blue;
+}
+.sample1{
+    color: red;
+}
+.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+
+h1,i{
+    color: red;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

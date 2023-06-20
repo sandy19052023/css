@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style html elements</title>
+    <style>
+        table,th,td{
+            border: 3px solid royalblue;
+            border-collapse: collapse;
+            border-style: dashed;
+            padding: 20px;
+            background-color: aqua;
+            border-radius: 20px;
+            margin-left: 300px;
+            height: auto;
+            width: 1000px;
+            box-shadow: 5px 5px 3px royalblue;
+        }
+        th{
+            background-color: blue;
+        }
+        th:hover{
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: black;
+        }
+        /* table{
+            border-radius: 200px;
+        } */
+        #one{
+            height: auto;
+            width: 100px;
+            background-color:red;
+            color:aliceblue;
+            padding: 10px;
+            border-radius: 20px;
+            margin-left: 800px;
+            border-color:red;
+            box-shadow: 3px 3px 3px black;
+        }
+        div{
+            height: auto;
+            width: 250px;
+            border: 1px solid rgb(216, 228, 231);
+            padding: 20px;
+            border-width: 5px;
+            background-image: url(https://www.shutterstock.com/image-photo/mountains-under-mist-morning-amazing-260nw-1725825019.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        img{
+            border-radius: 300px;
+        }
+        #four{
+            background-color: royalblue;
+            color: aliceblue;
+            border-color: royalblue;
+            padding: 5px;
+            height: auto;
+            width: 80px;
+            font-style: italic;
+            /* box-shadow: 3px 3px 8px chartreuse; */
+        }
+        #two{
+            /* text-align: center; */
+            font-style: italic;
+            width: 160px;
+            
+        }
+        #three{
+            font-style: italic;
+            width: 160px;
+        }
+        #one:hover{
+            color: white;
+        background-color: black;  
+    font-size: xx-large;    
+width: 200px;  }
+input[type=password]{
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th style="background: url(https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712__340.jpg) ;">S.NO</th>
+            <th>NAME</th>
+            <th>YEAR</th>
+            <th>AGE</th>
+            <th>DOB</th>
+        </tr>
+        <tr>
+        <th>1 </th>
+        <td style="font-style: italic;" >Sandy</td>
+        <td style="font-size: xx-small ;" >3year</td>
+<td style="text-decoration: line-through;">21</td>
+<td style="font-weight: bolder;">19.6.2001</td>
+    </tr>
+        <tr>
+            <th>2</th>
+            <td>raj</td>
+            <td>3year</td>
+            <td>21</td>
+            <td>10.4.2001</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td style="text-transform: uppercase;">raja</td>
+            <td style="letter-spacing: 10px;">3year</td>
+            <td>21</td>
+            <td>05.5.2001</td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>ravi</td>
+            <td>3year</td>
+            <td>21</td>
+            <td style="text-shadow: 3px 4px 2px red;">09.08.2001</td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td>siva</td>
+            <td>3year</td>
+            <td>21</td>
+            <td>22.05.2001</td>
+        </tr>
+    </table><br><br><br><form action="">
+    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Ftravel%2F&psig=AOvVaw3JiZ2vEGCmQzKbGO8X-nvB&ust=1679035205518000&source=images&cd=vfe&ved=0CA4QjhxqFwoTCIjYpNnr3_0CFQAAAAAdAAAAABAE" target="_blank"><input type="button" value="CLICK" id="one"> </a><br><br><hr>
+    <center><div> <center><img src="https://static.vecteezy.com/system/resources/previews/005/276/776/original/logo-icon-person-on-white-background-free-vector.jpg"  alt="user" width="150" height="150" ><br><br>
+    <input type="email" name="em" id="two" placeholder="Email" required><br><br>
+ <input type="password" name="ps" id="three"placeholder="Password" required><br><br>
+ <input type="submit" value="Log in" id="four"></center>
+</form></div></center>
+</body>
+</html>

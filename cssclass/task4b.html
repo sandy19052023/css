@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    border: 2px solid gray;
+    width: 250px;
+    height: auto;
+    margin-left: 500px;
+    margin-top: 250px;
+    padding: 30px;
+}
+#reset{
+    /* margin-right: 100px; */
+    margin-bottom: 0px;
+}
+#submit{
+    margin-left: 100px;
+    /* margin-top: 0px; */
+}
+/* #em:hover{} */
+input[type=email]{
+    color: royalblue;
+    background-color:aliceblue;
+    border-color: royalblue;
+    font-size: xx-large;
+}
+input[type=checkbox]{
+    color: red;
+    background-color: blue;
+    font-size: xx-large;
+    text-transform: uppercase;
+
+}
+input[type=radio]{
+color: red;
+font-size: xx-large;
+}
+</style>
+<body>
+    <form action="">
+        <label for="em" >Email:</label><input type="email" name="em" id="em" required><br>
+       <label for="name">Name:</label><input type="text" name="name" id="name"><br>
+       <label for="password">Password:</label><input type="password" name="password" id="password"><br>
+       <label for="date">DOB:</label><input type="date" name="date" id="date"><br>
+       <label for="namber">Mobile Number:</label><input type="number" name="number" id="number"><br>
+       <h4>Professional Skills</h4>
+       <label for="checkbox1">C</label><input type="checkbox" name="checkbox1" id="checkbox1"><br>
+       <label for="checkbox2">C++</label><input type="checkbox" name="checkbox2" id="checkbox2"><br>
+       <label for="checkbox3">Java</label><input type="checkbox" name="checkbox3" id="checkbox3"><br>
+       <label for="checkbox4">Javascript</label><input type="checkbox" name="checkbox4" id="checkbox4"><br>
+       <label for="checkbox5">Python</label><input type="checkbox" name="checkbox5" id="checkbox5"><br>
+       <label for="checkbox6">Css</label><input type="checkbox" name="checkbox6" id="checkbox6"><br>
+       <label for="checkbox7">Html</label><input type="checkbox" name="checkbox7" id="checkbox7"><br>
+       <label for="color"></label>Favourite Color:<input type="color" name="color" id="color"><br>
+       <h4>Year of Passed out</h4>
+       <label for="radio">2021</label><input type="radio" name="radio" id="2021">
+       <label for="radio">2022</label><input type="radio" name="radio" id="2022">
+       <label for="radio">2023</label><input type="radio" name="radio" id="2023">
+       <label for="radio">2024</label><input type="radio" name="radio" id="2024"><br>
+       
+       <label for="Uplode Resum"><h4>Uplode Resum</h4></label><input type="file" name="Uplode Resum" id="Uplode Resum"><br><br>
+<label for="range">Level</label><input type="range" name="range" id="Level"><br><br>
+<center><input type="reset" value=" Clear " id="reset"></center>
+<input type="submit" value="submit"  id="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+div + p{
+    color: red;
+}
+
+
+/*  div p
+    div > p
+    div ~ p
+    div + p
+*/
+
+<!-- -->
+
+
+elements{
+    prperty:value;
+}
